@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Ping n8n
         run: |
-          curl -f https://your-app-name.onrender.com/healthz
+          curl -f https://n8n-automations-hfzu.onrender.com
           echo "n8n is alive ✅"
